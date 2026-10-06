@@ -2,13 +2,13 @@
 # frozen_string_literal: true
 
 # Homebrew formula for eudi-dev, published to the dominikschlosser/homebrew-tap
-# repository by the release workflow. 2.6.0 (without the leading v) and
-# fbb6b9596ae0ff6cf8a6f0fdee31bff98ccf8ef5672fab44e8dfa14aafdfbc2a are filled in per release.
+# repository by the release workflow. 2.6.1 (without the leading v) and
+# 99c91a1b8a37976efd11ae6653e5ae26984cc3c9aac665d2e082fcb8dfa65abd are filled in per release.
 class EudiDev < Formula
   desc "Developer toolkit for the EUDI and OpenID4VC ecosystem"
   homepage "https://github.com/dominikschlosser/eudi-dev"
-  url "https://github.com/dominikschlosser/eudi-dev/archive/refs/tags/v2.6.0.tar.gz"
-  sha256 "fbb6b9596ae0ff6cf8a6f0fdee31bff98ccf8ef5672fab44e8dfa14aafdfbc2a"
+  url "https://github.com/dominikschlosser/eudi-dev/archive/refs/tags/v2.6.1.tar.gz"
+  sha256 "99c91a1b8a37976efd11ae6653e5ae26984cc3c9aac665d2e082fcb8dfa65abd"
   license "Apache-2.0"
   head "https://github.com/dominikschlosser/eudi-dev.git", branch: "main"
 
