@@ -6,11 +6,10 @@ The eudi-dev formula moved to the tap of the eudi-dev organization:
 brew install eudi-dev/tap/eudi-dev
 ```
 
-`brew update` moves an installed formula there. Homebrew loads formulas only from trusted taps, so trust the new one before you upgrade:
+If you installed eudi-dev from this tap, run this once. It trusts the new tap and upgrades from it:
 
 ```sh
-brew trust eudi-dev/tap
-brew upgrade eudi-dev
+brew upgrade eudi-dev/tap/eudi-dev
 ```
 
 You can then remove this tap with `brew untap dominikschlosser/tap`.
